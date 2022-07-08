@@ -18,6 +18,12 @@ public class HT {
     }
     int x = 3 - count;
     System.out.println("Heads: "+count+", Tails: "+x);
+    if(count>x){
+	System.out.println("You Won!");
+    }
+    if(count<x){
+	System.out.println("You lost.");
+    }
    
    
   }
